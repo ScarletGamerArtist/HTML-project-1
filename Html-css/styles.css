@@ -1,0 +1,46 @@
+/*Common Styles*/
+body {
+    margin: 0px;
+}
+
+/* Common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: tan; 
+    color: #000000;
+
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Different padding methods.*/
+    padding: 60px 100px;
+    /* padding: 60px 100px 60px 100px; */
+    /* padding: 100px; */
+    /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left: 100px; */
+
+}
+
+.left-column{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.icon i{
+    font-size: 2em;
+}
+
+.contact-hours-wrapper{
+   
+}
+
+.address-wrapper {
+    
+}
